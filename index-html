@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Solymania Homoeo Clinic</title>
 
+<style>
+body{
+    margin:0;
+    font-family: Arial;
+    background:#f4f9f4;
+}
+header{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+nav{
+    background:#1b5e20;
+    text-align:center;
+    padding:10px;
+}
+nav a{
+    color:white;
+    margin:10px;
+    text-decoration:none;
+    font-weight:bold;
+}
+section{
+    padding:20px;
+}
+.card{
+    background:white;
+    padding:15px;
+    margin:10px 0;
+    border-radius:10px;
+    box-shadow:0 0 5px rgba(0,0,0,0.1);
+}
+.btn{
+    background:#25D366;
+    color:white;
+    padding:10px;
+    text-decoration:none;
+    border-radius:5px;
+    display:inline-block;
+}
+footer{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>সুলায়মানিয়া হোমিও ক্লিনিক</h1>
+<p>Safe & Natural Homeopathic Treatment</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+<div class="card">
+<h2>স্বাগতম</h2>
+<p>আমরা দীর্ঘদিন ধরে সফলভাবে হোমিওপ্যাথি চিকিৎসা সেবা দিয়ে আসছি।</p>
+</div>
+</section>
+
+<section id="about">
+<div class="card">
+<h2>ডাক্তার পরিচিতি</h2>
+<p>ডা: শরীয়তুল্লাহ (BHMS, ঢাকা)</p>
+</div>
+</section>
+
+<section id="services">
+<div class="card">
+<h2>আমাদের সেবা</h2>
+<ul>
+<li>গ্যাস্ট্রিক</li>
+<li>এলার্জি</li>
+<li>হাঁপানি</li>
+<li>চর্মরোগ</li>
+</ul>
+</div>
+</section>
+
+<section id="contact">
+<div class="card">
+<h2>যোগাযোগ</h2>
+<p>📞 01405619387</p>
+<p>📍 শ্রীপুর, গাজীপুর</p>
+<a class="btn" href="https://wa.me/8801405619387">WhatsApp</a>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Solymania Homoeo Clinic</p>
+</footer>
+
+</body>
+</html>
